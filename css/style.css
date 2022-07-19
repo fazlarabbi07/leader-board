@@ -7,10 +7,13 @@ body {
     background-color:#F3F1FF;   
 }
 /* HEADER STYLE START  */
-
+main{
+    
+    padding: 30px;
+}
 .top-player-top-blog-container{
     background: #FFFFFF;  
-    border: 1px solid red;
+   
     padding: 15px;
 }
 .nav-container{
@@ -77,6 +80,14 @@ hr{
     border: 1px solid #D1D1D1;
 }
 /* BLOG STYLE START */
+
+.top-blog-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+   
+    
+}
 .blog-item{
     display: flex;
 }
@@ -86,4 +97,25 @@ hr{
 }
 #author-name{
     color: #562EFF;
+}
+
+.blog-description{
+    padding: 0 10px 5px 10px;
+    margin-left: 5px;
+    
+}
+.blog-title{
+    width: 164px;
+    height: 68px;
+    margin-top: 0;
+    
+    
+}
+.blog-title h6{
+    font-size: 18px;
+    margin: 0; 
+}
+.blog-author p{
+    margin: 0;
+    font-size: 13px;
 }
