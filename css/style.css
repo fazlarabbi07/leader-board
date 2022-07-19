@@ -7,6 +7,12 @@ body {
     background-color:#F3F1FF;   
 }
 /* HEADER STYLE START  */
+
+.top-player-top-blog-container{
+    background: #FFFFFF;  
+    border: 1px solid red;
+    padding: 15px;
+}
 .nav-container{
     background-color: #562EFF;
     display: flex;
@@ -45,3 +51,39 @@ body {
     height: 51px; 
 }
 /* HEADER STYLE END */
+#color{
+    font-size: 24px;
+    color: #562EFF;  
+}
+.top-player-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* width: 870px;
+height: 679px; */
+}
+.players-info{
+    display: flex;
+}
+.player-img{
+    margin-right: 16px;
+}
+.player-img img{
+    width: 56px;
+    height: 56px; 
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* BLOG STYLE START */
+.blog-item{
+    display: flex;
+}
+.blog-img img{
+    width: 177px;
+    height: 117px; 
+}
+#author-name{
+    color: #562EFF;
+}
